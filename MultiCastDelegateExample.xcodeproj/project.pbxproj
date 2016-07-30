@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53724941D4CBA41003DAC0C /* FirstListener.m in Sources */ = {isa = PBXBuildFile; fileRef = B53724931D4CBA41003DAC0C /* FirstListener.m */; };
+		B53724971D4CBA60003DAC0C /* SecondListener.m in Sources */ = {isa = PBXBuildFile; fileRef = B53724961D4CBA60003DAC0C /* SecondListener.m */; };
+		B537249A1D4CBB64003DAC0C /* EventPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = B53724991D4CBB64003DAC0C /* EventPusher.m */; };
 		B58A4CB61D4CAA1C00A7B8AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4CB51D4CAA1C00A7B8AC /* AppDelegate.m */; };
 		B58A4CB81D4CAA1C00A7B8AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4CB71D4CAA1C00A7B8AC /* main.m */; };
 		B58A4CBA1D4CAA1C00A7B8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58A4CB91D4CAA1C00A7B8AC /* Images.xcassets */; };
 		B58A4CBD1D4CAA1C00A7B8AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58A4CBB1D4CAA1C00A7B8AC /* MainMenu.xib */; };
 		B58A4CC91D4CAA1D00A7B8AC /* MultiCastDelegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4CC81D4CAA1D00A7B8AC /* MultiCastDelegateExampleTests.m */; };
+		B58A4CD41D4CAA9700A7B8AC /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4CD31D4CAA9700A7B8AC /* GCDMulticastDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B53724921D4CBA41003DAC0C /* FirstListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstListener.h; sourceTree = "<group>"; };
+		B53724931D4CBA41003DAC0C /* FirstListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstListener.m; sourceTree = "<group>"; };
+		B53724951D4CBA60003DAC0C /* SecondListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondListener.h; sourceTree = "<group>"; };
+		B53724961D4CBA60003DAC0C /* SecondListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondListener.m; sourceTree = "<group>"; };
+		B53724981D4CBB64003DAC0C /* EventPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPusher.h; sourceTree = "<group>"; };
+		B53724991D4CBB64003DAC0C /* EventPusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPusher.m; sourceTree = "<group>"; };
+		B537249B1D4CBFCD003DAC0C /* EventPusherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPusherDelegate.h; sourceTree = "<group>"; };
 		B58A4CAF1D4CAA1C00A7B8AC /* MultiCastDelegateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiCastDelegateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A4CB31D4CAA1C00A7B8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58A4CB41D4CAA1C00A7B8AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +46,8 @@
 		B58A4CC21D4CAA1D00A7B8AC /* MultiCastDelegateExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiCastDelegateExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A4CC71D4CAA1D00A7B8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58A4CC81D4CAA1D00A7B8AC /* MultiCastDelegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiCastDelegateExampleTests.m; sourceTree = "<group>"; };
+		B58A4CD21D4CAA9700A7B8AC /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMulticastDelegate.h; sourceTree = "<group>"; };
+		B58A4CD31D4CAA9700A7B8AC /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMulticastDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +91,15 @@
 			children = (
 				B58A4CB41D4CAA1C00A7B8AC /* AppDelegate.h */,
 				B58A4CB51D4CAA1C00A7B8AC /* AppDelegate.m */,
+				B53724981D4CBB64003DAC0C /* EventPusher.h */,
+				B53724991D4CBB64003DAC0C /* EventPusher.m */,
+				B537249B1D4CBFCD003DAC0C /* EventPusherDelegate.h */,
+				B53724951D4CBA60003DAC0C /* SecondListener.h */,
+				B53724961D4CBA60003DAC0C /* SecondListener.m */,
+				B53724921D4CBA41003DAC0C /* FirstListener.h */,
+				B53724931D4CBA41003DAC0C /* FirstListener.m */,
+				B58A4CD21D4CAA9700A7B8AC /* GCDMulticastDelegate.h */,
+				B58A4CD31D4CAA9700A7B8AC /* GCDMulticastDelegate.m */,
 				B58A4CB91D4CAA1C00A7B8AC /* Images.xcassets */,
 				B58A4CBB1D4CAA1C00A7B8AC /* MainMenu.xib */,
 				B58A4CB21D4CAA1C00A7B8AC /* Supporting Files */,
@@ -211,6 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58A4CB81D4CAA1C00A7B8AC /* main.m in Sources */,
+				B53724941D4CBA41003DAC0C /* FirstListener.m in Sources */,
+				B58A4CD41D4CAA9700A7B8AC /* GCDMulticastDelegate.m in Sources */,
+				B537249A1D4CBB64003DAC0C /* EventPusher.m in Sources */,
+				B53724971D4CBA60003DAC0C /* SecondListener.m in Sources */,
 				B58A4CB61D4CAA1C00A7B8AC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -318,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -331,6 +357,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MultiCastDelegateExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -342,6 +369,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MultiCastDelegateExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -361,6 +389,7 @@
 				);
 				INFOPLIST_FILE = MultiCastDelegateExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiCastDelegateExample.app/Contents/MacOS/MultiCastDelegateExample";
 			};
@@ -377,6 +406,7 @@
 				);
 				INFOPLIST_FILE = MultiCastDelegateExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiCastDelegateExample.app/Contents/MacOS/MultiCastDelegateExample";
 			};
@@ -401,6 +431,7 @@
 				B58A4CCE1D4CAA1D00A7B8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B58A4CCF1D4CAA1D00A7B8AC /* Build configuration list for PBXNativeTarget "MultiCastDelegateExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +440,7 @@
 				B58A4CD11D4CAA1D00A7B8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
